@@ -30,7 +30,7 @@ export default class UpdateDepartamento extends Component {
         return (
         <div>
             {
-                this.state.status == true &&
+                this.state.status === true &&
                 (<Navigate to="/"/>)
             }
             <h1>Update Departamento</h1>
